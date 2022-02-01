@@ -35,11 +35,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    z-index: 1;
 }
 .sneaker img{
-    width: 50rem;
-    
+    width: 55rem;
+    transform-style: preserve-3d;
     transition: all 0.75s ease-out;
 
 
@@ -55,7 +55,7 @@ body{
     );
     position: absolute;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 10;
 
 
 }
